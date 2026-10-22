@@ -1,0 +1,142 @@
+.content{
+	width: 60%;
+	background-color: transparent;
+	margin: auto;
+	height: 100%;
+	position: relative;
+}
+.content_Total{
+	width: 100%;
+	height: 350px;
+	display: block;
+	position: relative;
+	background-color: white;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 100px;
+	text-align: center;
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, .2);
+	background-image: url(data:image/jpeg;base64,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);
+}
+.c_img,.c_texto, .c_controles, .c_b_delete{
+	display: inline-block;
+}
+.c_texto{
+	width: 50%;
+	height: 100%;
+	background-color: rgb(255, 255, 255);
+}
+.c_producto{
+	height: 20vh;
+	margin: 20px auto;
+	display: block;
+	position: relative;
+	background-color: white;
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, .2);
+}
+.c_img{
+	float: left;
+	height: 100%;
+	width: auto;
+	background-color: white;
+	border: 20px;
+}
+.c_controles, .c_b_delete{
+	float: right;
+}
+.c_b_delete{
+	display: flex;
+   	align-items: center;
+	height: 100%;
+	text-align: center;
+	transition: all .5s;
+	margin-left: 2vh;
+}
+.c_b_delete:hover{
+	background-color: var(--NormalBtnBackground);
+	color: var(--NormalBtnColor);
+	cursor: pointer;
+}
+.delete{
+	margin-left: 2vh;
+	margin-right: 2vh;
+}
+.txt_ctd_p{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 500;
+	margin: 2vh;
+	font-size: 3vh;
+}
+.c_controles{
+	height: 100%;
+	display: flex;
+   	align-items: center;
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+}
+.c_b_ControlUp, .c_b_ControlDown{
+	margin: 0 auto;
+	color: rgb(158, 158, 158);
+	transition: 0.1s;
+	font-size: 2vh;
+	cursor: pointer;
+}
+.c_titulo{
+	margin-left: 30px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 3.5vh;
+	font-weight: 200;
+}
+.c_precio{
+	margin-left: 30px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 2.2vh;
+	font-weight: 500;
+}
+.arrow_c{
+	padding-left: 10px;
+	transition: all 0.3s;
+}
+.c_b_ControlUp:hover, .c_b_ControlDown:hover{
+	color: var(--NormalBtnBackground);
+}
+.comprar_btn{
+	padding: 15px 0px;
+	width: 8%;
+	font-size: 1.5vh;
+	font-weight: 100;
+	background-color: var(--NormalBtnBackground);
+	border-radius: 5px;
+	color: var(--NormalBtnColor);
+	border: 0px solid;
+	transition: all 0.3s;
+	text-decoration: none;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 500;
+	margin: 0 auto;
+	margin-top: 5vh;
+}
+.comprar_btn, .comprar_titulo{
+	display: block;
+}
+.comprar_btn:hover{
+	background-color: var(--RelaseBtnBackground);
+	color: var(--RelaseBtnColor);
+	border-radius: 5px;
+	transition: all 0.3s;
+}
+.comprar_titulo{
+	margin: 0 auto;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 100;
+	font-size: 7vh;
+	text-align: center;
+	padding-top: 5vh;
+}
+.comprar_txt_body{
+	margin: 0 auto;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 2vh;
+	font-weight: 500;
+	text-align: center;
+}

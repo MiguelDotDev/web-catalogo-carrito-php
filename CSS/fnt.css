@@ -1,0 +1,30 @@
+@font-face {  
+  font-family: 'Titulos';
+  src: url(../font/Spring-in-May.ttf);
+}
+@font-face {  
+  font-family: 'Shotgun';
+  src: url(../font/DiscoSociety.otf);
+}
+@font-face {  
+  font-family: 'Tanktype';
+  src: url(../font/TANKTYPE.otf);
+}
+@font-face {  
+  font-family: 'Dust-Serif';
+  src: url(../font/Serif-Sketch.ttf);
+  font-weight:bold;
+}
+@font-face {  
+  font-family: 'Terserah';
+  src: url(../font/Terserah.otf);
+  font-weight:bold;
+}
+@font-face {  
+  font-family: 'SweetHeart';
+  src: url(../font/SweetHeartDisplayRegular.ttf);
+}
+@font-face {  
+  font-family:'Masterpiece';
+  src: url(../font/Limited.otf);
+}
